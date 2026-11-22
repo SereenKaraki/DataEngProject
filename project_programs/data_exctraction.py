@@ -1,4 +1,3 @@
-
 import pandas as pd
 import requests
 import json
@@ -6,7 +5,7 @@ import json
 url = "https://api.restcountries.com/countries/v5"
 
 params = {
-    "response_fields": "names.common,region,population,area.kilometers,languages,currencies,borders",
+    "response_fields": "names.common,codes.alpha_3,region,population,area.kilometers,languages,currencies,borders",
     "limit": 100,
     "offset": 0
 }
@@ -31,8 +30,7 @@ while True:
 
 print("Total countries:", len(countries))
 
-
-with open("raw_countries.json", "w", encoding="utf-8") as raw_file:
+with open("raw_countries_.json", "w", encoding="utf-8") as raw_file:
     json.dump(countries, raw_file, indent=4, ensure_ascii=False)
 
 df = pd.json_normalize(countries, sep="_")
@@ -51,6 +49,7 @@ df["languages"] = df["languages"].apply(
 
 df = df[[
     "names_common",
+    "codes_alpha_3",
     "region",
     "population",
     "area_kilometers",
@@ -61,7 +60,7 @@ df = df[[
 
 flattened_countries = df.to_dict(orient="records")
 
-with open("flattened_countries.json", "w", encoding="utf-8") as file:
+with open("flattened_countries_.json", "w", encoding="utf-8") as file:
     json.dump(flattened_countries, file, indent=4, ensure_ascii=False)
 
 df = df.set_index("names_common")
