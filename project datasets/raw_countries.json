@@ -3,6 +3,9 @@
         "names": {
             "common": "Abkhazia"
         },
+        "codes": {
+            "alpha_3": ""
+        },
         "region": "Asia",
         "area": {
             "kilometers": 8665
@@ -46,6 +49,9 @@
     {
         "names": {
             "common": "Afghanistan"
+        },
+        "codes": {
+            "alpha_3": "AFG"
         },
         "region": "Asia",
         "area": {
@@ -104,6 +110,9 @@
         "names": {
             "common": "Albania"
         },
+        "codes": {
+            "alpha_3": "ALB"
+        },
         "region": "Europe",
         "area": {
             "kilometers": 28748
@@ -140,6 +149,9 @@
     {
         "names": {
             "common": "Algeria"
+        },
+        "codes": {
+            "alpha_3": "DZA"
         },
         "region": "Africa",
         "area": {
@@ -180,6 +192,9 @@
     {
         "names": {
             "common": "American Samoa"
+        },
+        "codes": {
+            "alpha_3": "ASM"
         },
         "region": "Oceania",
         "area": {
@@ -222,6 +237,9 @@
         "names": {
             "common": "Andorra"
         },
+        "codes": {
+            "alpha_3": "AND"
+        },
         "region": "Europe",
         "area": {
             "kilometers": 468
@@ -256,6 +274,9 @@
     {
         "names": {
             "common": "Angola"
+        },
+        "codes": {
+            "alpha_3": "AGO"
         },
         "region": "Africa",
         "area": {
@@ -294,6 +315,9 @@
         "names": {
             "common": "Anguilla"
         },
+        "codes": {
+            "alpha_3": "AIA"
+        },
         "region": "Americas",
         "area": {
             "kilometers": 91
@@ -326,6 +350,9 @@
         "names": {
             "common": "Antarctica"
         },
+        "codes": {
+            "alpha_3": "ATA"
+        },
         "region": "Antarctic",
         "area": {
             "kilometers": 14000000
@@ -341,6 +368,9 @@
     {
         "names": {
             "common": "Antigua and Barbuda"
+        },
+        "codes": {
+            "alpha_3": "ATG"
         },
         "region": "Americas",
         "area": {
@@ -373,6 +403,9 @@
     {
         "names": {
             "common": "Argentina"
+        },
+        "codes": {
+            "alpha_3": "ARG"
         },
         "region": "Americas",
         "area": {
@@ -421,6 +454,9 @@
         "names": {
             "common": "Armenia"
         },
+        "codes": {
+            "alpha_3": "ARM"
+        },
         "region": "Asia",
         "area": {
             "kilometers": 29743
@@ -457,6 +493,9 @@
     {
         "names": {
             "common": "Aruba"
+        },
+        "codes": {
+            "alpha_3": "ABW"
         },
         "region": "Americas",
         "area": {
@@ -499,6 +538,9 @@
         "names": {
             "common": "Australia"
         },
+        "codes": {
+            "alpha_3": "AUS"
+        },
         "region": "Oceania",
         "area": {
             "kilometers": 7692024
@@ -530,6 +572,9 @@
     {
         "names": {
             "common": "Austria"
+        },
+        "codes": {
+            "alpha_3": "AUT"
         },
         "region": "Europe",
         "area": {
@@ -572,6 +617,9 @@
         "names": {
             "common": "Azerbaijan"
         },
+        "codes": {
+            "alpha_3": "AZE"
+        },
         "region": "Asia",
         "area": {
             "kilometers": 86600
@@ -610,6 +658,9 @@
         "names": {
             "common": "Bahamas"
         },
+        "codes": {
+            "alpha_3": "BHS"
+        },
         "region": "Americas",
         "area": {
             "kilometers": 13943
@@ -647,6 +698,9 @@
         "names": {
             "common": "Bahrain"
         },
+        "codes": {
+            "alpha_3": "BHR"
+        },
         "region": "Asia",
         "area": {
             "kilometers": 765
@@ -678,6 +732,9 @@
     {
         "names": {
             "common": "Bangladesh"
+        },
+        "codes": {
+            "alpha_3": "BGD"
         },
         "region": "Asia",
         "area": {
@@ -714,6 +771,9 @@
         "names": {
             "common": "Barbados"
         },
+        "codes": {
+            "alpha_3": "BRB"
+        },
         "region": "Americas",
         "area": {
             "kilometers": 430
@@ -745,6 +805,9 @@
     {
         "names": {
             "common": "Belarus"
+        },
+        "codes": {
+            "alpha_3": "BLR"
         },
         "region": "Europe",
         "area": {
@@ -792,6 +855,9 @@
     {
         "names": {
             "common": "Belgium"
+        },
+        "codes": {
+            "alpha_3": "BEL"
         },
         "region": "Europe",
         "area": {
@@ -848,6 +914,9 @@
         "names": {
             "common": "Belize"
         },
+        "codes": {
+            "alpha_3": "BLZ"
+        },
         "region": "Americas",
         "area": {
             "kilometers": 22966
@@ -901,6 +970,9 @@
         "names": {
             "common": "Benin"
         },
+        "codes": {
+            "alpha_3": "BEN"
+        },
         "region": "Africa",
         "area": {
             "kilometers": 112622
@@ -938,6 +1010,9 @@
         "names": {
             "common": "Bermuda"
         },
+        "codes": {
+            "alpha_3": "BMU"
+        },
         "region": "Americas",
         "area": {
             "kilometers": 54
@@ -969,6 +1044,9 @@
     {
         "names": {
             "common": "Bhutan"
+        },
+        "codes": {
+            "alpha_3": "BTN"
         },
         "region": "Asia",
         "area": {
@@ -1009,6 +1087,9 @@
     {
         "names": {
             "common": "Bolivia"
+        },
+        "codes": {
+            "alpha_3": "BOL"
         },
         "region": "Americas",
         "area": {
@@ -1075,6 +1156,9 @@
         "names": {
             "common": "Bosnia and Herzegovina"
         },
+        "codes": {
+            "alpha_3": "BIH"
+        },
         "region": "Europe",
         "area": {
             "kilometers": 51209
@@ -1129,6 +1213,9 @@
         "names": {
             "common": "Botswana"
         },
+        "codes": {
+            "alpha_3": "BWA"
+        },
         "region": "Africa",
         "area": {
             "kilometers": 582000
@@ -1175,6 +1262,9 @@
         "names": {
             "common": "Bouvet Island"
         },
+        "codes": {
+            "alpha_3": "BVT"
+        },
         "region": "Antarctic",
         "area": {
             "kilometers": 49
@@ -1200,6 +1290,9 @@
     {
         "names": {
             "common": "Brazil"
+        },
+        "codes": {
+            "alpha_3": "BRA"
         },
         "region": "Americas",
         "area": {
@@ -1244,6 +1337,9 @@
         "names": {
             "common": "British Indian Ocean Territory"
         },
+        "codes": {
+            "alpha_3": "IOT"
+        },
         "region": "Africa",
         "area": {
             "kilometers": 60
@@ -1276,6 +1372,9 @@
         "names": {
             "common": "British Virgin Islands"
         },
+        "codes": {
+            "alpha_3": "VGB"
+        },
         "region": "Americas",
         "area": {
             "kilometers": 151
@@ -1307,6 +1406,9 @@
     {
         "names": {
             "common": "Brunei"
+        },
+        "codes": {
+            "alpha_3": "BRN"
         },
         "region": "Asia",
         "area": {
@@ -1347,6 +1449,9 @@
         "names": {
             "common": "Bulgaria"
         },
+        "codes": {
+            "alpha_3": "BGR"
+        },
         "region": "Europe",
         "area": {
             "kilometers": 110879
@@ -1384,6 +1489,9 @@
     {
         "names": {
             "common": "Burkina Faso"
+        },
+        "codes": {
+            "alpha_3": "BFA"
         },
         "region": "Africa",
         "area": {
@@ -1423,6 +1531,9 @@
     {
         "names": {
             "common": "Burundi"
+        },
+        "codes": {
+            "alpha_3": "BDI"
         },
         "region": "Africa",
         "area": {
@@ -1469,6 +1580,9 @@
         "names": {
             "common": "Cabo Verde"
         },
+        "codes": {
+            "alpha_3": "CPV"
+        },
         "region": "Africa",
         "area": {
             "kilometers": 4033
@@ -1494,12 +1608,15 @@
         ],
         "population": 491233,
         "_meta": {
-            "lastUpdatedTimestamp": 1794607457
+            "lastUpdatedTimestamp": 1795361756
         }
     },
     {
         "names": {
             "common": "Cambodia"
+        },
+        "codes": {
+            "alpha_3": "KHM"
         },
         "region": "Asia",
         "area": {
@@ -1535,12 +1652,15 @@
         ],
         "population": 17816143,
         "_meta": {
-            "lastUpdatedTimestamp": 1794510705
+            "lastUpdatedTimestamp": 1795214980
         }
     },
     {
         "names": {
             "common": "Cameroon"
+        },
+        "codes": {
+            "alpha_3": "CMR"
         },
         "region": "Africa",
         "area": {
@@ -1590,6 +1710,9 @@
         "names": {
             "common": "Canada"
         },
+        "codes": {
+            "alpha_3": "CAN"
+        },
         "region": "Americas",
         "area": {
             "kilometers": 9984670
@@ -1632,6 +1755,9 @@
     {
         "names": {
             "common": "Caribbean Netherlands"
+        },
+        "codes": {
+            "alpha_3": "BES"
         },
         "region": "Americas",
         "area": {
@@ -1683,6 +1809,9 @@
         "names": {
             "common": "Cayman Islands"
         },
+        "codes": {
+            "alpha_3": "CYM"
+        },
         "region": "Americas",
         "area": {
             "kilometers": 264
@@ -1714,6 +1843,9 @@
     {
         "names": {
             "common": "Central African Republic"
+        },
+        "codes": {
+            "alpha_3": "CAF"
         },
         "region": "Africa",
         "area": {
@@ -1763,6 +1895,9 @@
         "names": {
             "common": "Chad"
         },
+        "codes": {
+            "alpha_3": "TCD"
+        },
         "region": "Africa",
         "area": {
             "kilometers": 1284000
@@ -1811,6 +1946,9 @@
         "names": {
             "common": "Chile"
         },
+        "codes": {
+            "alpha_3": "CHL"
+        },
         "region": "Americas",
         "area": {
             "kilometers": 756102
@@ -1846,6 +1984,9 @@
     {
         "names": {
             "common": "China"
+        },
+        "codes": {
+            "alpha_3": "CHN"
         },
         "region": "Asia",
         "area": {
@@ -1896,6 +2037,9 @@
         "names": {
             "common": "Christmas Island"
         },
+        "codes": {
+            "alpha_3": "CXR"
+        },
         "region": "Oceania",
         "area": {
             "kilometers": 135
@@ -1928,6 +2072,9 @@
         "names": {
             "common": "Cocos (Keeling) Islands"
         },
+        "codes": {
+            "alpha_3": "CCK"
+        },
         "region": "Oceania",
         "area": {
             "kilometers": 14
@@ -1959,6 +2106,9 @@
     {
         "names": {
             "common": "Colombia"
+        },
+        "codes": {
+            "alpha_3": "COL"
         },
         "region": "Americas",
         "area": {
@@ -1997,6 +2147,9 @@
     {
         "names": {
             "common": "Comoros"
+        },
+        "codes": {
+            "alpha_3": "COM"
         },
         "region": "Africa",
         "area": {
@@ -2047,6 +2200,9 @@
     {
         "names": {
             "common": "Congo"
+        },
+        "codes": {
+            "alpha_3": "COG"
         },
         "region": "Africa",
         "area": {
@@ -2104,6 +2260,9 @@
         "names": {
             "common": "Cook Islands"
         },
+        "codes": {
+            "alpha_3": "COK"
+        },
         "region": "Oceania",
         "area": {
             "kilometers": 236
@@ -2150,6 +2309,9 @@
         "names": {
             "common": "Costa Rica"
         },
+        "codes": {
+            "alpha_3": "CRI"
+        },
         "region": "Americas",
         "area": {
             "kilometers": 51100
@@ -2184,6 +2346,9 @@
     {
         "names": {
             "common": "Croatia"
+        },
+        "codes": {
+            "alpha_3": "HRV"
         },
         "region": "Europe",
         "area": {
@@ -2223,6 +2388,9 @@
         "names": {
             "common": "Cuba"
         },
+        "codes": {
+            "alpha_3": "CUB"
+        },
         "region": "Americas",
         "area": {
             "kilometers": 109884
@@ -2254,6 +2422,9 @@
     {
         "names": {
             "common": "Curaçao"
+        },
+        "codes": {
+            "alpha_3": "CUW"
         },
         "region": "Americas",
         "area": {
@@ -2305,6 +2476,9 @@
         "names": {
             "common": "Cyprus"
         },
+        "codes": {
+            "alpha_3": "CYP"
+        },
         "region": "Europe",
         "area": {
             "kilometers": 9251
@@ -2345,6 +2519,9 @@
     {
         "names": {
             "common": "Czechia"
+        },
+        "codes": {
+            "alpha_3": "CZE"
         },
         "region": "Europe",
         "area": {
@@ -2391,6 +2568,9 @@
     {
         "names": {
             "common": "DRC"
+        },
+        "codes": {
+            "alpha_3": "COD"
         },
         "region": "Africa",
         "area": {
@@ -2470,6 +2650,9 @@
         "names": {
             "common": "Denmark"
         },
+        "codes": {
+            "alpha_3": "DNK"
+        },
         "region": "Europe",
         "area": {
             "kilometers": 43094
@@ -2503,6 +2686,9 @@
     {
         "names": {
             "common": "Djibouti"
+        },
+        "codes": {
+            "alpha_3": "DJI"
         },
         "region": "Africa",
         "area": {
@@ -2549,6 +2735,9 @@
         "names": {
             "common": "Dominica"
         },
+        "codes": {
+            "alpha_3": "DMA"
+        },
         "region": "Americas",
         "area": {
             "kilometers": 751
@@ -2572,14 +2761,17 @@
                 "native_name": "English"
             }
         ],
-        "population": 65431,
+        "population": 65400,
         "_meta": {
-            "lastUpdatedTimestamp": 1792404977
+            "lastUpdatedTimestamp": 1795269470
         }
     },
     {
         "names": {
             "common": "Dominican Republic"
+        },
+        "codes": {
+            "alpha_3": "DOM"
         },
         "region": "Americas",
         "area": {
@@ -2615,6 +2807,9 @@
         "names": {
             "common": "Ecuador"
         },
+        "codes": {
+            "alpha_3": "ECU"
+        },
         "region": "Americas",
         "area": {
             "kilometers": 276841
@@ -2649,6 +2844,9 @@
     {
         "names": {
             "common": "Egypt"
+        },
+        "codes": {
+            "alpha_3": "EGY"
         },
         "region": "Africa",
         "area": {
@@ -2687,6 +2885,9 @@
         "names": {
             "common": "El Salvador"
         },
+        "codes": {
+            "alpha_3": "SLV"
+        },
         "region": "Americas",
         "area": {
             "kilometers": 21041
@@ -2721,6 +2922,9 @@
     {
         "names": {
             "common": "Equatorial Guinea"
+        },
+        "codes": {
+            "alpha_3": "GNQ"
         },
         "region": "Africa",
         "area": {
@@ -2774,6 +2978,9 @@
     {
         "names": {
             "common": "Eritrea"
+        },
+        "codes": {
+            "alpha_3": "ERI"
         },
         "region": "Africa",
         "area": {
@@ -2829,6 +3036,9 @@
         "names": {
             "common": "Estonia"
         },
+        "codes": {
+            "alpha_3": "EST"
+        },
         "region": "Europe",
         "area": {
             "kilometers": 45227
@@ -2863,6 +3073,9 @@
     {
         "names": {
             "common": "Eswatini"
+        },
+        "codes": {
+            "alpha_3": "SWZ"
         },
         "region": "Africa",
         "area": {
@@ -2913,6 +3126,9 @@
         "names": {
             "common": "Ethiopia"
         },
+        "codes": {
+            "alpha_3": "ETH"
+        },
         "region": "Africa",
         "area": {
             "kilometers": 1104300
@@ -2952,6 +3168,9 @@
         "names": {
             "common": "Falkland Islands"
         },
+        "codes": {
+            "alpha_3": "FLK"
+        },
         "region": "Americas",
         "area": {
             "kilometers": 12173
@@ -2983,6 +3202,9 @@
     {
         "names": {
             "common": "Faroe Islands"
+        },
+        "codes": {
+            "alpha_3": "FRO"
         },
         "region": "Europe",
         "area": {
@@ -3029,6 +3251,9 @@
     {
         "names": {
             "common": "Fiji"
+        },
+        "codes": {
+            "alpha_3": "FJI"
         },
         "region": "Oceania",
         "area": {
@@ -3080,6 +3305,9 @@
         "names": {
             "common": "Finland"
         },
+        "codes": {
+            "alpha_3": "FIN"
+        },
         "region": "Europe",
         "area": {
             "kilometers": 338424
@@ -3125,6 +3353,9 @@
         "names": {
             "common": "France"
         },
+        "codes": {
+            "alpha_3": "FRA"
+        },
         "region": "Europe",
         "area": {
             "kilometers": 551695
@@ -3166,6 +3397,9 @@
         "names": {
             "common": "French Guiana"
         },
+        "codes": {
+            "alpha_3": "GUF"
+        },
         "region": "Americas",
         "area": {
             "kilometers": 83534
@@ -3201,6 +3435,9 @@
         "names": {
             "common": "French Polynesia"
         },
+        "codes": {
+            "alpha_3": "PYF"
+        },
         "region": "Oceania",
         "area": {
             "kilometers": 4167
@@ -3233,6 +3470,9 @@
         "names": {
             "common": "French Southern and Antarctic Lands"
         },
+        "codes": {
+            "alpha_3": "ATF"
+        },
         "region": "Antarctic",
         "area": {
             "kilometers": 7747
@@ -3264,6 +3504,9 @@
     {
         "names": {
             "common": "Gabon"
+        },
+        "codes": {
+            "alpha_3": "GAB"
         },
         "region": "Africa",
         "area": {
@@ -3301,6 +3544,9 @@
         "names": {
             "common": "Gambia"
         },
+        "codes": {
+            "alpha_3": "GMB"
+        },
         "region": "Africa",
         "area": {
             "kilometers": 10689
@@ -3334,6 +3580,9 @@
     {
         "names": {
             "common": "Georgia"
+        },
+        "codes": {
+            "alpha_3": "GEO"
         },
         "region": "Asia",
         "area": {
@@ -3371,6 +3620,9 @@
     {
         "names": {
             "common": "Germany"
+        },
+        "codes": {
+            "alpha_3": "DEU"
         },
         "region": "Europe",
         "area": {
@@ -3414,6 +3666,9 @@
         "names": {
             "common": "Ghana"
         },
+        "codes": {
+            "alpha_3": "GHA"
+        },
         "region": "Africa",
         "area": {
             "kilometers": 238533
@@ -3450,6 +3705,9 @@
         "names": {
             "common": "Gibraltar"
         },
+        "codes": {
+            "alpha_3": "GIB"
+        },
         "region": "Europe",
         "area": {
             "kilometers": 6
@@ -3483,6 +3741,9 @@
     {
         "names": {
             "common": "Greece"
+        },
+        "codes": {
+            "alpha_3": "GRC"
         },
         "region": "Europe",
         "area": {
@@ -3521,6 +3782,9 @@
         "names": {
             "common": "Greenland"
         },
+        "codes": {
+            "alpha_3": "GRL"
+        },
         "region": "Americas",
         "area": {
             "kilometers": 2166086
@@ -3552,6 +3816,9 @@
     {
         "names": {
             "common": "Grenada"
+        },
+        "codes": {
+            "alpha_3": "GRD"
         },
         "region": "Americas",
         "area": {
@@ -3585,6 +3852,9 @@
         "names": {
             "common": "Guadeloupe"
         },
+        "codes": {
+            "alpha_3": "GLP"
+        },
         "region": "Americas",
         "area": {
             "kilometers": 1628
@@ -3616,6 +3886,9 @@
     {
         "names": {
             "common": "Guam"
+        },
+        "codes": {
+            "alpha_3": "GUM"
         },
         "region": "Oceania",
         "area": {
@@ -3667,6 +3940,9 @@
         "names": {
             "common": "Guatemala"
         },
+        "codes": {
+            "alpha_3": "GTM"
+        },
         "region": "Americas",
         "area": {
             "kilometers": 108889
@@ -3703,6 +3979,9 @@
     {
         "names": {
             "common": "Guernsey"
+        },
+        "codes": {
+            "alpha_3": "GGY"
         },
         "region": "Europe",
         "area": {
@@ -3759,6 +4038,9 @@
         "names": {
             "common": "Guinea"
         },
+        "codes": {
+            "alpha_3": "GIN"
+        },
         "region": "Africa",
         "area": {
             "kilometers": 245857
@@ -3797,6 +4079,9 @@
     {
         "names": {
             "common": "Guinea-Bissau"
+        },
+        "codes": {
+            "alpha_3": "GNB"
         },
         "region": "Africa",
         "area": {
@@ -3842,6 +4127,9 @@
         "names": {
             "common": "Guyana"
         },
+        "codes": {
+            "alpha_3": "GUY"
+        },
         "region": "Americas",
         "area": {
             "kilometers": 214969
@@ -3877,6 +4165,9 @@
     {
         "names": {
             "common": "Haiti"
+        },
+        "codes": {
+            "alpha_3": "HTI"
         },
         "region": "Americas",
         "area": {
@@ -3921,6 +4212,9 @@
         "names": {
             "common": "Heard Island and McDonald Islands"
         },
+        "codes": {
+            "alpha_3": "HMD"
+        },
         "region": "Antarctic",
         "area": {
             "kilometers": 412
@@ -3946,6 +4240,9 @@
     {
         "names": {
             "common": "Honduras"
+        },
+        "codes": {
+            "alpha_3": "HND"
         },
         "region": "Americas",
         "area": {
@@ -3982,6 +4279,9 @@
     {
         "names": {
             "common": "Hong Kong"
+        },
+        "codes": {
+            "alpha_3": "HKG"
         },
         "region": "Asia",
         "area": {
@@ -4026,6 +4326,9 @@
         "names": {
             "common": "Hungary"
         },
+        "codes": {
+            "alpha_3": "HUN"
+        },
         "region": "Europe",
         "area": {
             "kilometers": 93028
@@ -4066,6 +4369,9 @@
         "names": {
             "common": "Iceland"
         },
+        "codes": {
+            "alpha_3": "ISL"
+        },
         "region": "Europe",
         "area": {
             "kilometers": 103000
@@ -4097,6 +4403,9 @@
     {
         "names": {
             "common": "India"
+        },
+        "codes": {
+            "alpha_3": "IND"
         },
         "region": "Asia",
         "area": {
@@ -4155,6 +4464,9 @@
         "names": {
             "common": "Indonesia"
         },
+        "codes": {
+            "alpha_3": "IDN"
+        },
         "region": "Asia",
         "area": {
             "kilometers": 1904569
@@ -4190,6 +4502,9 @@
     {
         "names": {
             "common": "Iran"
+        },
+        "codes": {
+            "alpha_3": "IRN"
         },
         "region": "Asia",
         "area": {
@@ -4230,6 +4545,9 @@
     {
         "names": {
             "common": "Iraq"
+        },
+        "codes": {
+            "alpha_3": "IRQ"
         },
         "region": "Asia",
         "area": {
@@ -4288,6 +4606,9 @@
         "names": {
             "common": "Ireland"
         },
+        "codes": {
+            "alpha_3": "IRL"
+        },
         "region": "Europe",
         "area": {
             "kilometers": 70273
@@ -4330,6 +4651,9 @@
     {
         "names": {
             "common": "Isle of Man"
+        },
+        "codes": {
+            "alpha_3": "IMN"
         },
         "region": "Europe",
         "area": {
@@ -4377,6 +4701,9 @@
         "names": {
             "common": "Israel"
         },
+        "codes": {
+            "alpha_3": "ISR"
+        },
         "region": "Asia",
         "area": {
             "kilometers": 20770
@@ -4423,6 +4750,9 @@
     {
         "names": {
             "common": "Italy"
+        },
+        "codes": {
+            "alpha_3": "ITA"
         },
         "region": "Europe",
         "area": {
@@ -4472,6 +4802,9 @@
         "names": {
             "common": "Ivory Coast"
         },
+        "codes": {
+            "alpha_3": "CIV"
+        },
         "region": "Africa",
         "area": {
             "kilometers": 322463
@@ -4509,6 +4842,9 @@
     {
         "names": {
             "common": "Jamaica"
+        },
+        "codes": {
+            "alpha_3": "JAM"
         },
         "region": "Americas",
         "area": {
@@ -4551,6 +4887,9 @@
         "names": {
             "common": "Japan"
         },
+        "codes": {
+            "alpha_3": "JPN"
+        },
         "region": "Asia",
         "area": {
             "kilometers": 377930
@@ -4574,14 +4913,17 @@
                 "native_name": "日本語"
             }
         ],
-        "population": 122690000,
+        "population": 122430000,
         "_meta": {
-            "lastUpdatedTimestamp": 1794544491
+            "lastUpdatedTimestamp": 1795198343
         }
     },
     {
         "names": {
             "common": "Jersey"
+        },
+        "codes": {
+            "alpha_3": "JEY"
         },
         "region": "Europe",
         "area": {
@@ -4638,6 +4980,9 @@
         "names": {
             "common": "Jordan"
         },
+        "codes": {
+            "alpha_3": "JOR"
+        },
         "region": "Asia",
         "area": {
             "kilometers": 89342
@@ -4675,6 +5020,9 @@
     {
         "names": {
             "common": "Kazakhstan"
+        },
+        "codes": {
+            "alpha_3": "KAZ"
         },
         "region": "Asia",
         "area": {
@@ -4723,6 +5071,9 @@
         "names": {
             "common": "Kenya"
         },
+        "codes": {
+            "alpha_3": "KEN"
+        },
         "region": "Africa",
         "area": {
             "kilometers": 580367
@@ -4770,6 +5121,9 @@
         "names": {
             "common": "Kiribati"
         },
+        "codes": {
+            "alpha_3": "KIR"
+        },
         "region": "Oceania",
         "area": {
             "kilometers": 811
@@ -4815,6 +5169,9 @@
     {
         "names": {
             "common": "Kosovo"
+        },
+        "codes": {
+            "alpha_3": "UNK"
         },
         "region": "Europe",
         "area": {
@@ -4862,6 +5219,9 @@
         "names": {
             "common": "Kuwait"
         },
+        "codes": {
+            "alpha_3": "KWT"
+        },
         "region": "Asia",
         "area": {
             "kilometers": 17818
@@ -4896,6 +5256,9 @@
     {
         "names": {
             "common": "Kyrgyzstan"
+        },
+        "codes": {
+            "alpha_3": "KGZ"
         },
         "region": "Asia",
         "area": {
@@ -4943,6 +5306,9 @@
         "names": {
             "common": "Laos"
         },
+        "codes": {
+            "alpha_3": "LAO"
+        },
         "region": "Asia",
         "area": {
             "kilometers": 236800
@@ -4974,12 +5340,15 @@
         ],
         "population": 7745000,
         "_meta": {
-            "lastUpdatedTimestamp": 1794924672
+            "lastUpdatedTimestamp": 1795100910
         }
     },
     {
         "names": {
             "common": "Latvia"
+        },
+        "codes": {
+            "alpha_3": "LVA"
         },
         "region": "Europe",
         "area": {
@@ -5017,6 +5386,9 @@
     {
         "names": {
             "common": "Lebanon"
+        },
+        "codes": {
+            "alpha_3": "LBN"
         },
         "region": "Asia",
         "area": {
@@ -5061,6 +5433,9 @@
     {
         "names": {
             "common": "Lesotho"
+        },
+        "codes": {
+            "alpha_3": "LSO"
         },
         "region": "Africa",
         "area": {
@@ -5110,6 +5485,9 @@
         "names": {
             "common": "Liberia"
         },
+        "codes": {
+            "alpha_3": "LBR"
+        },
         "region": "Africa",
         "area": {
             "kilometers": 111369
@@ -5145,6 +5523,9 @@
     {
         "names": {
             "common": "Libya"
+        },
+        "codes": {
+            "alpha_3": "LBY"
         },
         "region": "Africa",
         "area": {
@@ -5185,6 +5566,9 @@
         "names": {
             "common": "Liechtenstein"
         },
+        "codes": {
+            "alpha_3": "LIE"
+        },
         "region": "Europe",
         "area": {
             "kilometers": 160
@@ -5219,6 +5603,9 @@
     {
         "names": {
             "common": "Lithuania"
+        },
+        "codes": {
+            "alpha_3": "LTU"
         },
         "region": "Europe",
         "area": {
@@ -5256,6 +5643,9 @@
     {
         "names": {
             "common": "Luxembourg"
+        },
+        "codes": {
+            "alpha_3": "LUX"
         },
         "region": "Europe",
         "area": {
@@ -5311,6 +5701,9 @@
         "names": {
             "common": "Macau"
         },
+        "codes": {
+            "alpha_3": "MAC"
+        },
         "region": "Asia",
         "area": {
             "kilometers": 30
@@ -5354,6 +5747,9 @@
         "names": {
             "common": "Madagascar"
         },
+        "codes": {
+            "alpha_3": "MDG"
+        },
         "region": "Africa",
         "area": {
             "kilometers": 587041
@@ -5394,6 +5790,9 @@
     {
         "names": {
             "common": "Malawi"
+        },
+        "codes": {
+            "alpha_3": "MWI"
         },
         "region": "Africa",
         "area": {
@@ -5440,6 +5839,9 @@
         "names": {
             "common": "Malaysia"
         },
+        "codes": {
+            "alpha_3": "MYS"
+        },
         "region": "Asia",
         "area": {
             "kilometers": 330803
@@ -5485,6 +5887,9 @@
         "names": {
             "common": "Maldives"
         },
+        "codes": {
+            "alpha_3": "MDV"
+        },
         "region": "Asia",
         "area": {
             "kilometers": 300
@@ -5516,6 +5921,9 @@
     {
         "names": {
             "common": "Mali"
+        },
+        "codes": {
+            "alpha_3": "MLI"
         },
         "region": "Africa",
         "area": {
@@ -5556,6 +5964,9 @@
     {
         "names": {
             "common": "Malta"
+        },
+        "codes": {
+            "alpha_3": "MLT"
         },
         "region": "Europe",
         "area": {
@@ -5598,6 +6009,9 @@
         "names": {
             "common": "Marshall Islands"
         },
+        "codes": {
+            "alpha_3": "MHL"
+        },
         "region": "Oceania",
         "area": {
             "kilometers": 181
@@ -5639,6 +6053,9 @@
         "names": {
             "common": "Martinique"
         },
+        "codes": {
+            "alpha_3": "MTQ"
+        },
         "region": "Americas",
         "area": {
             "kilometers": 1128
@@ -5670,6 +6087,9 @@
     {
         "names": {
             "common": "Mauritania"
+        },
+        "codes": {
+            "alpha_3": "MRT"
         },
         "region": "Africa",
         "area": {
@@ -5707,6 +6127,9 @@
     {
         "names": {
             "common": "Mauritius"
+        },
+        "codes": {
+            "alpha_3": "MUS"
         },
         "region": "Africa",
         "area": {
@@ -5758,6 +6181,9 @@
         "names": {
             "common": "Mayotte"
         },
+        "codes": {
+            "alpha_3": "MYT"
+        },
         "region": "Africa",
         "area": {
             "kilometers": 374
@@ -5789,6 +6215,9 @@
     {
         "names": {
             "common": "Mexico"
+        },
+        "codes": {
+            "alpha_3": "MEX"
         },
         "region": "Americas",
         "area": {
@@ -5826,6 +6255,9 @@
         "names": {
             "common": "Micronesia"
         },
+        "codes": {
+            "alpha_3": "FSM"
+        },
         "region": "Oceania",
         "area": {
             "kilometers": 702
@@ -5857,6 +6289,9 @@
     {
         "names": {
             "common": "Moldova"
+        },
+        "codes": {
+            "alpha_3": "MDA"
         },
         "region": "Europe",
         "area": {
@@ -5893,6 +6328,9 @@
         "names": {
             "common": "Monaco"
         },
+        "codes": {
+            "alpha_3": "MCO"
+        },
         "region": "Europe",
         "area": {
             "kilometers": 2.02
@@ -5927,6 +6365,9 @@
         "names": {
             "common": "Mongolia"
         },
+        "codes": {
+            "alpha_3": "MNG"
+        },
         "region": "Asia",
         "area": {
             "kilometers": 1564110
@@ -5955,12 +6396,15 @@
         ],
         "population": 3591120,
         "_meta": {
-            "lastUpdatedTimestamp": 1792405081
+            "lastUpdatedTimestamp": 1795116019
         }
     },
     {
         "names": {
             "common": "Montenegro"
+        },
+        "codes": {
+            "alpha_3": "MNE"
         },
         "region": "Europe",
         "area": {
@@ -6000,6 +6444,9 @@
         "names": {
             "common": "Montserrat"
         },
+        "codes": {
+            "alpha_3": "MSR"
+        },
         "region": "Americas",
         "area": {
             "kilometers": 102
@@ -6031,6 +6478,9 @@
     {
         "names": {
             "common": "Morocco"
+        },
+        "codes": {
+            "alpha_3": "MAR"
         },
         "region": "Africa",
         "area": {
@@ -6077,6 +6527,9 @@
         "names": {
             "common": "Mozambique"
         },
+        "codes": {
+            "alpha_3": "MOZ"
+        },
         "region": "Africa",
         "area": {
             "kilometers": 801590
@@ -6116,6 +6569,9 @@
         "names": {
             "common": "Myanmar"
         },
+        "codes": {
+            "alpha_3": "MMR"
+        },
         "region": "Asia",
         "area": {
             "kilometers": 676578
@@ -6153,6 +6609,9 @@
     {
         "names": {
             "common": "Namibia"
+        },
+        "codes": {
+            "alpha_3": "NAM"
         },
         "region": "Africa",
         "area": {
@@ -6268,6 +6727,9 @@
         "names": {
             "common": "Naoero"
         },
+        "codes": {
+            "alpha_3": "NRU"
+        },
         "region": "Oceania",
         "area": {
             "kilometers": 21
@@ -6309,6 +6771,9 @@
         "names": {
             "common": "Nepal"
         },
+        "codes": {
+            "alpha_3": "NPL"
+        },
         "region": "Asia",
         "area": {
             "kilometers": 147181
@@ -6343,6 +6808,9 @@
     {
         "names": {
             "common": "Netherlands"
+        },
+        "codes": {
+            "alpha_3": "NLD"
         },
         "region": "Europe",
         "area": {
@@ -6379,6 +6847,9 @@
         "names": {
             "common": "New Caledonia"
         },
+        "codes": {
+            "alpha_3": "NCL"
+        },
         "region": "Oceania",
         "area": {
             "kilometers": 18575
@@ -6410,6 +6881,9 @@
     {
         "names": {
             "common": "New Zealand"
+        },
+        "codes": {
+            "alpha_3": "NZL"
         },
         "region": "Oceania",
         "area": {
@@ -6461,6 +6935,9 @@
         "names": {
             "common": "Nicaragua"
         },
+        "codes": {
+            "alpha_3": "NIC"
+        },
         "region": "Americas",
         "area": {
             "kilometers": 130373
@@ -6495,6 +6972,9 @@
     {
         "names": {
             "common": "Niger"
+        },
+        "codes": {
+            "alpha_3": "NER"
         },
         "region": "Africa",
         "area": {
@@ -6536,6 +7016,9 @@
         "names": {
             "common": "Nigeria"
         },
+        "codes": {
+            "alpha_3": "NGA"
+        },
         "region": "Africa",
         "area": {
             "kilometers": 923768
@@ -6572,6 +7055,9 @@
     {
         "names": {
             "common": "Niue"
+        },
+        "codes": {
+            "alpha_3": "NIU"
         },
         "region": "Oceania",
         "area": {
@@ -6614,6 +7100,9 @@
         "names": {
             "common": "Norfolk Island"
         },
+        "codes": {
+            "alpha_3": "NFK"
+        },
         "region": "Oceania",
         "area": {
             "kilometers": 36
@@ -6655,6 +7144,9 @@
         "names": {
             "common": "North Korea"
         },
+        "codes": {
+            "alpha_3": "PRK"
+        },
         "region": "Asia",
         "area": {
             "kilometers": 120538
@@ -6684,12 +7176,15 @@
         ],
         "population": 25950000,
         "_meta": {
-            "lastUpdatedTimestamp": 1794936026
+            "lastUpdatedTimestamp": 1795007025
         }
     },
     {
         "names": {
             "common": "North Macedonia"
+        },
+        "codes": {
+            "alpha_3": "MKD"
         },
         "region": "Europe",
         "area": {
@@ -6729,6 +7224,9 @@
         "names": {
             "common": "Northern Cyprus"
         },
+        "codes": {
+            "alpha_3": ""
+        },
         "region": "Europe",
         "area": {
             "kilometers": 3355
@@ -6762,6 +7260,9 @@
     {
         "names": {
             "common": "Northern Mariana Islands"
+        },
+        "codes": {
+            "alpha_3": "MNP"
         },
         "region": "Oceania",
         "area": {
@@ -6812,6 +7313,9 @@
     {
         "names": {
             "common": "Norway"
+        },
+        "codes": {
+            "alpha_3": "NOR"
         },
         "region": "Europe",
         "area": {
@@ -6876,14 +7380,17 @@
                 "native_name": "Åarjelsaemien gïele"
             }
         ],
-        "population": 5636904,
+        "population": 5646598,
         "_meta": {
-            "lastUpdatedTimestamp": 1788557520
+            "lastUpdatedTimestamp": 1795198343
         }
     },
     {
         "names": {
             "common": "Oman"
+        },
+        "codes": {
+            "alpha_3": "OMN"
         },
         "region": "Asia",
         "area": {
@@ -6920,6 +7427,9 @@
     {
         "names": {
             "common": "Pakistan"
+        },
+        "codes": {
+            "alpha_3": "PAK"
         },
         "region": "Asia",
         "area": {
@@ -6967,6 +7477,9 @@
         "names": {
             "common": "Palau"
         },
+        "codes": {
+            "alpha_3": "PLW"
+        },
         "region": "Oceania",
         "area": {
             "kilometers": 459
@@ -7007,6 +7520,9 @@
     {
         "names": {
             "common": "Palestine"
+        },
+        "codes": {
+            "alpha_3": "PSE"
         },
         "region": "Asia",
         "area": {
@@ -7054,6 +7570,9 @@
         "names": {
             "common": "Panama"
         },
+        "codes": {
+            "alpha_3": "PAN"
+        },
         "region": "Americas",
         "area": {
             "kilometers": 75417
@@ -7093,6 +7612,9 @@
     {
         "names": {
             "common": "Papua New Guinea"
+        },
+        "codes": {
+            "alpha_3": "PNG"
         },
         "region": "Oceania",
         "area": {
@@ -7146,6 +7668,9 @@
         "names": {
             "common": "Paraguay"
         },
+        "codes": {
+            "alpha_3": "PRY"
+        },
         "region": "Americas",
         "area": {
             "kilometers": 406752
@@ -7190,6 +7715,9 @@
     {
         "names": {
             "common": "Peru"
+        },
+        "codes": {
+            "alpha_3": "PER"
         },
         "region": "Americas",
         "area": {
@@ -7247,6 +7775,9 @@
         "names": {
             "common": "Philippines"
         },
+        "codes": {
+            "alpha_3": "PHL"
+        },
         "region": "Asia",
         "area": {
             "kilometers": 342353
@@ -7288,6 +7819,9 @@
         "names": {
             "common": "Pitcairn Islands"
         },
+        "codes": {
+            "alpha_3": "PCN"
+        },
         "region": "Oceania",
         "area": {
             "kilometers": 47
@@ -7319,6 +7853,9 @@
     {
         "names": {
             "common": "Poland"
+        },
+        "codes": {
+            "alpha_3": "POL"
         },
         "region": "Europe",
         "area": {
@@ -7360,6 +7897,9 @@
         "names": {
             "common": "Portugal"
         },
+        "codes": {
+            "alpha_3": "PRT"
+        },
         "region": "Europe",
         "area": {
             "kilometers": 92090
@@ -7393,6 +7933,9 @@
     {
         "names": {
             "common": "Puerto Rico"
+        },
+        "codes": {
+            "alpha_3": "PRI"
         },
         "region": "Americas",
         "area": {
@@ -7435,6 +7978,9 @@
         "names": {
             "common": "Qatar"
         },
+        "codes": {
+            "alpha_3": "QAT"
+        },
         "region": "Asia",
         "area": {
             "kilometers": 11586
@@ -7468,6 +8014,9 @@
     {
         "names": {
             "common": "Romania"
+        },
+        "codes": {
+            "alpha_3": "ROU"
         },
         "region": "Europe",
         "area": {
@@ -7506,6 +8055,9 @@
     {
         "names": {
             "common": "Russia"
+        },
+        "codes": {
+            "alpha_3": "RUS"
         },
         "region": "Europe",
         "area": {
@@ -7553,6 +8105,9 @@
     {
         "names": {
             "common": "Rwanda"
+        },
+        "codes": {
+            "alpha_3": "RWA"
         },
         "region": "Africa",
         "area": {
@@ -7609,6 +8164,9 @@
         "names": {
             "common": "Réunion"
         },
+        "codes": {
+            "alpha_3": "REU"
+        },
         "region": "Africa",
         "area": {
             "kilometers": 2511
@@ -7641,6 +8199,9 @@
         "names": {
             "common": "Saint Barthélemy"
         },
+        "codes": {
+            "alpha_3": "BLM"
+        },
         "region": "Americas",
         "area": {
             "kilometers": 21
@@ -7672,6 +8233,9 @@
     {
         "names": {
             "common": "Saint Helena, Ascension and Tristan da Cunha"
+        },
+        "codes": {
+            "alpha_3": "SHN"
         },
         "region": "Africa",
         "area": {
@@ -7710,6 +8274,9 @@
         "names": {
             "common": "Saint Kitts and Nevis"
         },
+        "codes": {
+            "alpha_3": "KNA"
+        },
         "region": "Americas",
         "area": {
             "kilometers": 261
@@ -7742,6 +8309,9 @@
         "names": {
             "common": "Saint Lucia"
         },
+        "codes": {
+            "alpha_3": "LCA"
+        },
         "region": "Americas",
         "area": {
             "kilometers": 616
@@ -7773,6 +8343,9 @@
     {
         "names": {
             "common": "Saint Martin"
+        },
+        "codes": {
+            "alpha_3": "MAF"
         },
         "region": "Americas",
         "area": {
@@ -7808,6 +8381,9 @@
         "names": {
             "common": "Saint Pierre and Miquelon"
         },
+        "codes": {
+            "alpha_3": "SPM"
+        },
         "region": "Americas",
         "area": {
             "kilometers": 242
@@ -7840,6 +8416,9 @@
         "names": {
             "common": "Saint Vincent and the Grenadines"
         },
+        "codes": {
+            "alpha_3": "VCT"
+        },
         "region": "Americas",
         "area": {
             "kilometers": 389
@@ -7871,6 +8450,9 @@
     {
         "names": {
             "common": "Samoa"
+        },
+        "codes": {
+            "alpha_3": "WSM"
         },
         "region": "Oceania",
         "area": {
@@ -7913,6 +8495,9 @@
         "names": {
             "common": "San Marino"
         },
+        "codes": {
+            "alpha_3": "SMR"
+        },
         "region": "Europe",
         "area": {
             "kilometers": 61
@@ -7946,6 +8531,9 @@
     {
         "names": {
             "common": "Saudi Arabia"
+        },
+        "codes": {
+            "alpha_3": "SAU"
         },
         "region": "Asia",
         "area": {
@@ -7987,6 +8575,9 @@
         "names": {
             "common": "Senegal"
         },
+        "codes": {
+            "alpha_3": "SEN"
+        },
         "region": "Africa",
         "area": {
             "kilometers": 196722
@@ -8025,6 +8616,9 @@
         "names": {
             "common": "Serbia"
         },
+        "codes": {
+            "alpha_3": "SRB"
+        },
         "region": "Europe",
         "area": {
             "kilometers": 88361
@@ -8059,12 +8653,15 @@
         ],
         "population": 6532019,
         "_meta": {
-            "lastUpdatedTimestamp": 1794924737
+            "lastUpdatedTimestamp": 1795288125
         }
     },
     {
         "names": {
             "common": "Seychelles"
+        },
+        "codes": {
+            "alpha_3": "SYC"
         },
         "region": "Africa",
         "area": {
@@ -8116,6 +8713,9 @@
         "names": {
             "common": "Sierra Leone"
         },
+        "codes": {
+            "alpha_3": "SLE"
+        },
         "region": "Africa",
         "area": {
             "kilometers": 71740
@@ -8150,6 +8750,9 @@
     {
         "names": {
             "common": "Singapore"
+        },
+        "codes": {
+            "alpha_3": "SGP"
         },
         "region": "Asia",
         "area": {
@@ -8210,6 +8813,9 @@
         "names": {
             "common": "Sint Maarten"
         },
+        "codes": {
+            "alpha_3": "SXM"
+        },
         "region": "Americas",
         "area": {
             "kilometers": 34
@@ -8262,6 +8868,9 @@
         "names": {
             "common": "Slovakia"
         },
+        "codes": {
+            "alpha_3": "SVK"
+        },
         "region": "Europe",
         "area": {
             "kilometers": 49037
@@ -8300,6 +8909,9 @@
         "names": {
             "common": "Slovenia"
         },
+        "codes": {
+            "alpha_3": "SVN"
+        },
         "region": "Europe",
         "area": {
             "kilometers": 20273
@@ -8337,6 +8949,9 @@
         "names": {
             "common": "Solomon Islands"
         },
+        "codes": {
+            "alpha_3": "SLB"
+        },
         "region": "Oceania",
         "area": {
             "kilometers": 28896
@@ -8368,6 +8983,9 @@
     {
         "names": {
             "common": "Somalia"
+        },
+        "codes": {
+            "alpha_3": "SOM"
         },
         "region": "Africa",
         "area": {
@@ -8413,6 +9031,9 @@
     {
         "names": {
             "common": "Somaliland"
+        },
+        "codes": {
+            "alpha_3": ""
         },
         "region": "Africa",
         "area": {
@@ -8467,6 +9088,9 @@
     {
         "names": {
             "common": "South Africa"
+        },
+        "codes": {
+            "alpha_3": "ZAF"
         },
         "region": "Africa",
         "area": {
@@ -8597,6 +9221,9 @@
         "names": {
             "common": "South Georgia"
         },
+        "codes": {
+            "alpha_3": "SGS"
+        },
         "region": "Antarctic",
         "area": {
             "kilometers": 3903
@@ -8628,6 +9255,9 @@
     {
         "names": {
             "common": "South Korea"
+        },
+        "codes": {
+            "alpha_3": "KOR"
         },
         "region": "Asia",
         "area": {
@@ -8662,6 +9292,9 @@
     {
         "names": {
             "common": "South Ossetia"
+        },
+        "codes": {
+            "alpha_3": ""
         },
         "region": "Asia",
         "area": {
@@ -8707,6 +9340,9 @@
         "names": {
             "common": "South Sudan"
         },
+        "codes": {
+            "alpha_3": "SSD"
+        },
         "region": "Africa",
         "area": {
             "kilometers": 619745
@@ -8745,6 +9381,9 @@
     {
         "names": {
             "common": "Spain"
+        },
+        "codes": {
+            "alpha_3": "ESP"
         },
         "region": "Europe",
         "area": {
@@ -8820,6 +9459,9 @@
         "names": {
             "common": "Sri Lanka"
         },
+        "codes": {
+            "alpha_3": "LKA"
+        },
         "region": "Asia",
         "area": {
             "kilometers": 65610
@@ -8860,6 +9502,9 @@
     {
         "names": {
             "common": "Sudan"
+        },
+        "codes": {
+            "alpha_3": "SDN"
         },
         "region": "Africa",
         "area": {
@@ -8910,6 +9555,9 @@
         "names": {
             "common": "Suriname"
         },
+        "codes": {
+            "alpha_3": "SUR"
+        },
         "region": "Americas",
         "area": {
             "kilometers": 163820
@@ -8946,6 +9594,9 @@
         "names": {
             "common": "Svalbard and Jan Mayen"
         },
+        "codes": {
+            "alpha_3": "SJM"
+        },
         "region": "Europe",
         "area": {
             "kilometers": 61399
@@ -8977,6 +9628,9 @@
     {
         "names": {
             "common": "Sweden"
+        },
+        "codes": {
+            "alpha_3": "SWE"
         },
         "region": "Europe",
         "area": {
@@ -9012,6 +9666,9 @@
     {
         "names": {
             "common": "Switzerland"
+        },
+        "codes": {
+            "alpha_3": "CHE"
         },
         "region": "Europe",
         "area": {
@@ -9078,6 +9735,9 @@
         "names": {
             "common": "Syria"
         },
+        "codes": {
+            "alpha_3": "SYR"
+        },
         "region": "Asia",
         "area": {
             "kilometers": 185180
@@ -9116,6 +9776,9 @@
         "names": {
             "common": "São Tomé and Príncipe"
         },
+        "codes": {
+            "alpha_3": "STP"
+        },
         "region": "Africa",
         "area": {
             "kilometers": 964
@@ -9148,6 +9811,9 @@
         "names": {
             "common": "Taiwan"
         },
+        "codes": {
+            "alpha_3": "TWN"
+        },
         "region": "Asia",
         "area": {
             "kilometers": 36193
@@ -9179,6 +9845,9 @@
     {
         "names": {
             "common": "Tajikistan"
+        },
+        "codes": {
+            "alpha_3": "TJK"
         },
         "region": "Asia",
         "area": {
@@ -9225,6 +9894,9 @@
     {
         "names": {
             "common": "Tanzania"
+        },
+        "codes": {
+            "alpha_3": "TZA"
         },
         "region": "Africa",
         "area": {
@@ -9276,6 +9948,9 @@
         "names": {
             "common": "Thailand"
         },
+        "codes": {
+            "alpha_3": "THA"
+        },
         "region": "Asia",
         "area": {
             "kilometers": 513120
@@ -9312,6 +9987,9 @@
     {
         "names": {
             "common": "Timor-Leste"
+        },
+        "codes": {
+            "alpha_3": "TLS"
         },
         "region": "Asia",
         "area": {
@@ -9356,6 +10034,9 @@
         "names": {
             "common": "Togo"
         },
+        "codes": {
+            "alpha_3": "TGO"
+        },
         "region": "Africa",
         "area": {
             "kilometers": 56785
@@ -9391,6 +10072,9 @@
     {
         "names": {
             "common": "Tokelau"
+        },
+        "codes": {
+            "alpha_3": "TKL"
         },
         "region": "Oceania",
         "area": {
@@ -9442,6 +10126,9 @@
         "names": {
             "common": "Tonga"
         },
+        "codes": {
+            "alpha_3": "TON"
+        },
         "region": "Oceania",
         "area": {
             "kilometers": 747
@@ -9483,6 +10170,9 @@
         "names": {
             "common": "Trinidad and Tobago"
         },
+        "codes": {
+            "alpha_3": "TTO"
+        },
         "region": "Americas",
         "area": {
             "kilometers": 5130
@@ -9514,6 +10204,9 @@
     {
         "names": {
             "common": "Tunisia"
+        },
+        "codes": {
+            "alpha_3": "TUN"
         },
         "region": "Africa",
         "area": {
@@ -9549,6 +10242,9 @@
     {
         "names": {
             "common": "Turkey"
+        },
+        "codes": {
+            "alpha_3": "TUR"
         },
         "region": "Asia",
         "area": {
@@ -9590,6 +10286,9 @@
     {
         "names": {
             "common": "Turkmenistan"
+        },
+        "codes": {
+            "alpha_3": "TKM"
         },
         "region": "Asia",
         "area": {
@@ -9637,6 +10336,9 @@
         "names": {
             "common": "Turks and Caicos Islands"
         },
+        "codes": {
+            "alpha_3": "TCA"
+        },
         "region": "Americas",
         "area": {
             "kilometers": 948
@@ -9668,6 +10370,9 @@
     {
         "names": {
             "common": "Tuvalu"
+        },
+        "codes": {
+            "alpha_3": "TUV"
         },
         "region": "Oceania",
         "area": {
@@ -9714,6 +10419,9 @@
     {
         "names": {
             "common": "Uganda"
+        },
+        "codes": {
+            "alpha_3": "UGA"
         },
         "region": "Africa",
         "area": {
@@ -9762,6 +10470,9 @@
         "names": {
             "common": "Ukraine"
         },
+        "codes": {
+            "alpha_3": "UKR"
+        },
         "region": "Europe",
         "area": {
             "kilometers": 603500
@@ -9793,14 +10504,17 @@
                 "native_name": "Українська"
             }
         ],
-        "population": 28700000,
+        "population": 32423000,
         "_meta": {
-            "lastUpdatedTimestamp": 1788557521
+            "lastUpdatedTimestamp": 1795100925
         }
     },
     {
         "names": {
             "common": "United Arab Emirates"
+        },
+        "codes": {
+            "alpha_3": "ARE"
         },
         "region": "Asia",
         "area": {
@@ -9837,6 +10551,9 @@
         "names": {
             "common": "United Kingdom"
         },
+        "codes": {
+            "alpha_3": "GBR"
+        },
         "region": "Europe",
         "area": {
             "kilometers": 242900
@@ -9870,6 +10587,9 @@
     {
         "names": {
             "common": "United States"
+        },
+        "codes": {
+            "alpha_3": "USA"
         },
         "region": "Americas",
         "area": {
@@ -9906,6 +10626,9 @@
         "names": {
             "common": "United States Minor Outlying Islands"
         },
+        "codes": {
+            "alpha_3": "UMI"
+        },
         "region": "Americas",
         "area": {
             "kilometers": 34.2
@@ -9938,6 +10661,9 @@
         "names": {
             "common": "United States Virgin Islands"
         },
+        "codes": {
+            "alpha_3": "VIR"
+        },
         "region": "Americas",
         "area": {
             "kilometers": 347
@@ -9969,6 +10695,9 @@
     {
         "names": {
             "common": "Uruguay"
+        },
+        "codes": {
+            "alpha_3": "URY"
         },
         "region": "Americas",
         "area": {
@@ -10004,6 +10733,9 @@
     {
         "names": {
             "common": "Uzbekistan"
+        },
+        "codes": {
+            "alpha_3": "UZB"
         },
         "region": "Asia",
         "area": {
@@ -10051,6 +10783,9 @@
     {
         "names": {
             "common": "Vanuatu"
+        },
+        "codes": {
+            "alpha_3": "VUT"
         },
         "region": "Oceania",
         "area": {
@@ -10102,6 +10837,9 @@
         "names": {
             "common": "Vatican City"
         },
+        "codes": {
+            "alpha_3": "VAT"
+        },
         "region": "Europe",
         "area": {
             "kilometers": 0.44
@@ -10145,6 +10883,9 @@
         "names": {
             "common": "Venezuela"
         },
+        "codes": {
+            "alpha_3": "VEN"
+        },
         "region": "Americas",
         "area": {
             "kilometers": 916445
@@ -10180,6 +10921,9 @@
     {
         "names": {
             "common": "Vietnam"
+        },
+        "codes": {
+            "alpha_3": "VNM"
         },
         "region": "Asia",
         "area": {
@@ -10217,6 +10961,9 @@
         "names": {
             "common": "Wallis and Futuna"
         },
+        "codes": {
+            "alpha_3": "WLF"
+        },
         "region": "Oceania",
         "area": {
             "kilometers": 142
@@ -10248,6 +10995,9 @@
     {
         "names": {
             "common": "Western Sahara"
+        },
+        "codes": {
+            "alpha_3": "ESH"
         },
         "region": "Africa",
         "area": {
@@ -10304,6 +11054,9 @@
         "names": {
             "common": "Yemen"
         },
+        "codes": {
+            "alpha_3": "YEM"
+        },
         "region": "Asia",
         "area": {
             "kilometers": 527968
@@ -10338,6 +11091,9 @@
     {
         "names": {
             "common": "Zambia"
+        },
+        "codes": {
+            "alpha_3": "ZMB"
         },
         "region": "Africa",
         "area": {
@@ -10379,6 +11135,9 @@
     {
         "names": {
             "common": "Zimbabwe"
+        },
+        "codes": {
+            "alpha_3": "ZWE"
         },
         "region": "Africa",
         "area": {
@@ -10547,6 +11306,9 @@
     {
         "names": {
             "common": "Åland Islands"
+        },
+        "codes": {
+            "alpha_3": "ALA"
         },
         "region": "Europe",
         "area": {
