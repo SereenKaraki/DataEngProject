@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "kernelspec": {
+      "name": "python",
+      "display_name": "Python (Pyodide)",
+      "language": "python"
+    },
+    "language_info": {
+      "codemirror_mode": {
+        "name": "python",
+        "version": 3
+      },
+      "file_extension": ".py",
+      "mimetype": "text/x-python",
+      "name": "python",
+      "nbconvert_exporter": "python",
+      "pygments_lexer": "ipython3",
+      "version": "3.8"
+    }
+  },
+  "nbformat_minor": 5,
+  "nbformat": 4,
+  "cells": [
+    {
+      "id": "6bf73f51-63ee-4b1f-b271-f0d373207e9b",
+      "cell_type": "code",
+      "source": "import pandas as pd\nimport requests\nimport json\n\nurl = \"https://api.restcountries.com/countries/v5\"\n\n# setting up the API request\n# response_fields accepts the country feautures we need\n\n# the limit takes in the limit of the number of countries we can retrieve with each API requests, Countries REST\n#only accepts a 100 countries per each request\n\n# offset tells the API where to start retrieving countries and how many countries to skip with each call\n# we start with 0 as we want it to retrieve from the start\nparams = {\n    \"response_fields\": \"names.common,codes.alpha_3,region,population,area.kilometers,languages,currencies,borders\",\n    \"limit\": 100,\n    \"offset\": 0\n}\n\n# headers accept the API key that will allow us to make requests\nheaders = {\"Authorization\": \"Bearer rc_live_4d9fbaf925a24212a15b65cddb89225e\"}\n\ncountries = []\n\nwhile True:\n    response = requests.get(url, headers=headers, params=params) # sends the API request\n    json_data = response.json() # converts the API response into a Python object\n    data = json_data[\"data\"] # accessing the values associated with the 'data' key retrieved from the API\n\n    countries.extend(data[\"objects\"])  # data['objects'] accesses the list of countries stored under the 'objects' key\n                                      # and then are added to the countries list\n\n    if not data[\"meta\"][\"more\"]: # indentifies whether more country records are available to be pulled\n        break                    # breaks the loops if no more country records are left ( we retrieved all the countries )\n\n    params[\"offset\"] += 100 # skips the previously retrieved 100 countries, so 1st call: 0-100  2md call: 100-200  3rd call: 200-254\n\nprint(\"Total countries:\", len(countries))\n\ndf = pd.json_normalize(countries, sep=\"_\")\n\n# converts lists into comma-separated strings( csv ) and flattens the json fields into a structured tabular dataset\ndf[\"borders\"] = df[\"borders\"].apply(lambda x: \", \".join(x) if isinstance(x, list) else \"\")\n\ndf[\"currencies\"] = df[\"currencies\"].apply(lambda x: \", \".join(c[\"name\"] for c in x) if isinstance(x, list) else \"\")\n\ndf[\"languages\"] = df[\"languages\"].apply(lambda x: \", \".join(l[\"bcp47\"] for l in x) if isinstance(x, list) else \"\")\n\ndf = df[[\n    \"names_common\",\n    \"codes_alpha_3\",\n    \"region\",\n    \"population\",\n    \"area_kilometers\",\n    \"borders\",\n    \"currencies\",\n    \"languages\"\n]]\n#setting keys or cols\n\nraw_countries = df.to_dict(orient=\"records\")\n\nwith open(\"raw_countries_.json\", \"w\", encoding=\"utf-8\") as file:\n    json.dump(raw_countries, file, indent=4, ensure_ascii=False)\n\ndf = df.set_index(\"names_common\")\n\ndf=pd.DataFrame(df)\ndisplay(df)\n",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "Total countries: 254\n"
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": "               codes_alpha_3   region  population  area_kilometers  \\\nnames_common                                                         \nAbkhazia                         Asia      244236           8665.0   \nAfghanistan              AFG     Asia    43844000         652230.0   \nAlbania                  ALB   Europe     2335930          28748.0   \nAlgeria                  DZA   Africa    47400000        2381741.0   \nAmerican Samoa           ASM  Oceania       43268            199.0   \n...                      ...      ...         ...              ...   \nWestern Sahara           ESH   Africa      510713         266000.0   \nYemen                    YEM     Asia    32684503         527968.0   \nZambia                   ZMB   Africa    23003214         752612.0   \nZimbabwe                 ZWE   Africa    16175966         390757.0   \nÅland Islands            ALA   Europe       30654           1580.0   \n\n                                               borders  \\\nnames_common                                             \nAbkhazia                                      GEO, RUS   \nAfghanistan               IRN, PAK, TKM, UZB, TJK, CHN   \nAlbania                             MNE, GRC, MKD, UNK   \nAlgeria              TUN, LBY, NER, ESH, MRT, MLI, MAR   \nAmerican Samoa                                           \n...                                                ...   \nWestern Sahara                           DZA, MRT, MAR   \nYemen                                         OMN, SAU   \nZambia          AGO, BWA, COD, MWI, MOZ, NAM, TZA, ZWE   \nZimbabwe                            BWA, MOZ, ZAF, ZMB   \nÅland Islands                                            \n\n                                                       currencies  \\\nnames_common                                                        \nAbkhazia                                            Russian ruble   \nAfghanistan                                        Afghan afghani   \nAlbania                                              Albanian lek   \nAlgeria                                            Algerian dinar   \nAmerican Samoa                               United States dollar   \n...                                                           ...   \nWestern Sahara  Algerian dinar, Moroccan dirham, Mauritanian o...   \nYemen                                                 Yemeni rial   \nZambia                                             Zambian kwacha   \nZimbabwe                      United States dollar, Zimbabwe Gold   \nÅland Islands                                                Euro   \n\n                                                        languages  \nnames_common                                                       \nAbkhazia                                                   ab, ru  \nAfghanistan                                           prs, ps, tk  \nAlbania                                                        sq  \nAlgeria                                                        ar  \nAmerican Samoa                                             en, sm  \n...                                                           ...  \nWestern Sahara                                            mey, es  \nYemen                                                          ar  \nZambia                                                         en  \nZimbabwe        bwg, en, kck, khi, ndc, nd, ny, sn, st, toi, t...  \nÅland Islands                                                  sv  \n\n[254 rows x 7 columns]",
+            "text/html": "<div>\n<style scoped>\n    .dataframe tbody tr th:only-of-type {\n        vertical-align: middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align: top;\n    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n</style>\n<table border=\"1\" class=\"dataframe\">\n  <thead>\n    <tr style=\"text-align: right;\">\n      <th></th>\n      <th>codes_alpha_3</th>\n      <th>region</th>\n      <th>population</th>\n      <th>area_kilometers</th>\n      <th>borders</th>\n      <th>currencies</th>\n      <th>languages</th>\n    </tr>\n    <tr>\n      <th>names_common</th>\n      <th></th>\n      <th></th>\n      <th></th>\n      <th></th>\n      <th></th>\n      <th></th>\n      <th></th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <th>Abkhazia</th>\n      <td></td>\n      <td>Asia</td>\n      <td>244236</td>\n      <td>8665.0</td>\n      <td>GEO, RUS</td>\n      <td>Russian ruble</td>\n      <td>ab, ru</td>\n    </tr>\n    <tr>\n      <th>Afghanistan</th>\n      <td>AFG</td>\n      <td>Asia</td>\n      <td>43844000</td>\n      <td>652230.0</td>\n      <td>IRN, PAK, TKM, UZB, TJK, CHN</td>\n      <td>Afghan afghani</td>\n      <td>prs, ps, tk</td>\n    </tr>\n    <tr>\n      <th>Albania</th>\n      <td>ALB</td>\n      <td>Europe</td>\n      <td>2335930</td>\n      <td>28748.0</td>\n      <td>MNE, GRC, MKD, UNK</td>\n      <td>Albanian lek</td>\n      <td>sq</td>\n    </tr>\n    <tr>\n      <th>Algeria</th>\n      <td>DZA</td>\n      <td>Africa</td>\n      <td>47400000</td>\n      <td>2381741.0</td>\n      <td>TUN, LBY, NER, ESH, MRT, MLI, MAR</td>\n      <td>Algerian dinar</td>\n      <td>ar</td>\n    </tr>\n    <tr>\n      <th>American Samoa</th>\n      <td>ASM</td>\n      <td>Oceania</td>\n      <td>43268</td>\n      <td>199.0</td>\n      <td></td>\n      <td>United States dollar</td>\n      <td>en, sm</td>\n    </tr>\n    <tr>\n      <th>...</th>\n      <td>...</td>\n      <td>...</td>\n      <td>...</td>\n      <td>...</td>\n      <td>...</td>\n      <td>...</td>\n      <td>...</td>\n    </tr>\n    <tr>\n      <th>Western Sahara</th>\n      <td>ESH</td>\n      <td>Africa</td>\n      <td>510713</td>\n      <td>266000.0</td>\n      <td>DZA, MRT, MAR</td>\n      <td>Algerian dinar, Moroccan dirham, Mauritanian o...</td>\n      <td>mey, es</td>\n    </tr>\n    <tr>\n      <th>Yemen</th>\n      <td>YEM</td>\n      <td>Asia</td>\n      <td>32684503</td>\n      <td>527968.0</td>\n      <td>OMN, SAU</td>\n      <td>Yemeni rial</td>\n      <td>ar</td>\n    </tr>\n    <tr>\n      <th>Zambia</th>\n      <td>ZMB</td>\n      <td>Africa</td>\n      <td>23003214</td>\n      <td>752612.0</td>\n      <td>AGO, BWA, COD, MWI, MOZ, NAM, TZA, ZWE</td>\n      <td>Zambian kwacha</td>\n      <td>en</td>\n    </tr>\n    <tr>\n      <th>Zimbabwe</th>\n      <td>ZWE</td>\n      <td>Africa</td>\n      <td>16175966</td>\n      <td>390757.0</td>\n      <td>BWA, MOZ, ZAF, ZMB</td>\n      <td>United States dollar, Zimbabwe Gold</td>\n      <td>bwg, en, kck, khi, ndc, nd, ny, sn, st, toi, t...</td>\n    </tr>\n    <tr>\n      <th>Åland Islands</th>\n      <td>ALA</td>\n      <td>Europe</td>\n      <td>30654</td>\n      <td>1580.0</td>\n      <td></td>\n      <td>Euro</td>\n      <td>sv</td>\n    </tr>\n  </tbody>\n</table>\n<p>254 rows × 7 columns</p>\n</div>"
+          },
+          "metadata": {}
+        }
+      ],
+      "execution_count": 4
+    },
+    {
+      "id": "af978861-64a2-4d3b-9e06-387725d404ad",
+      "cell_type": "code",
+      "source": "",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    }
+  ]
+}
