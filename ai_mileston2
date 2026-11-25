@@ -1,0 +1,38 @@
+Security issue to fix first
+
+data_exctraction.py has the API key hard-coded. If that file goes to GitHub, the key is public. Replace it with os.environ["RESTCOUNTRIES_KEY"] before the repo is shared, and ask your teammate to rotate the key.
+
+What needs cleaning
+Issue	Where	Suggested decision
+Empty codes_alpha_3	Abkhazia, Northern Cyprus, Somaliland, South Ossetia (unrecognized states)	Flag, don't drop. Add is_iso_recognized = False. Convert "" to NaN. Don't invent codes.
+Non-ISO code	Kosovo uses UNK (user-assigned)	Keep it, but flag it in the same column.
+Empty currencies / languages	Antarctica, Bouvet, Heard Island (no currency); Antarctica (no language)	Convert "" to NaN, add num_currencies/num_languages = 0. This is genuine absence, not an error.
+Empty borders	About 70 islands and territories	Not missing. It means no land border. Set num_borders = 0 and is_landlocked_island = True. Don't impute.
+Population = 0	Bouvet, Heard Island	Uninhabited, so the zero is true. Flag as is_uninhabited, and exclude it from log charts and density calculations.
+Extreme outliers	China and India (population), Russia and Antarctica (area), Vatican (0.44 km²), Pitcairn (35 people)	Keep them. They're real. Use log scale in charts and report IQR-based outliers in the profile.
+Region inconsistencies	"Antarctic" is a region of its own (5 entries). British Indian Ocean Territory is under Africa. Turkey, Georgia and Armenia are under Asia, Cyprus is under Europe.	Keep the API's regions, document the quirks, and optionally add is_sovereign.
+Non-standard names	"DRC", "Naoero", "Ivory Coast", "Cabo Verde", "Czechia"	Add name_standard if you enrich by name. Better still, join on ISO alpha-3.
+Odd language codes	Zimbabwe has khi (a language family) and zib (sign language), NZ has nzs, Italy lists ca	Document these. Count languages as-is, or flag sign languages and families.
+Mixed update dates	_meta.lastUpdatedTimestamp varies per country, so population years differ	Mention it as a limitation in the report.
+Lost detail	The flattened file kept only language codes and currency names, not language names or currency codes	Build the clean dataset from the nested raw JSON so you can keep both.
+
+One more check: raw_countries_.json in the script is written from the already-flattened dataframe, but the file you uploaded is the nested version. Confirm with your teammate which file is the true raw, since the repo should contain the unmodified API response.
+
+Steps to finish today
+Set up the repo structure: data/raw/, data/clean/, src/, ai-logs/milestone1/.
+Profile the raw data (this becomes the first report section):
+shape, dtypes, and missing counts (treating "" as missing)
+describe() for population and area, skewness, and IQR/z-score outliers
+region counts and duplicate checks
+border reference integrity
+Write src/clean_data.py, one script that reads raw and writes the cleaned file:
+replace "" with NaN and cast types (population as Int64, area as float)
+split the list columns into num_* counts and keep the joined strings
+add the flag columns above
+add derived fields: population_density, num_borders, num_languages, num_currencies
+output countries_clean.csv and a cleaning_log of how many rows each rule touched
+Validate with asserts: 254 rows, unique ISO codes where present, no negative values, and every border code exists in the dataset.
+Optional enrichment: join a free dataset (World Bank GDP, or UN subregions) on ISO alpha-3.
+Hand off to the visualization teammate: the clean CSV and a data dictionary.
+Write your report sections: missingness and outlier findings, and a cleaning decisions table with a justification for each row (the table above is your starting point).
+AI disclosure: save this conversation to /ai-logs/milestone1/.
